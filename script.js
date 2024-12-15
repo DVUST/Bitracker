@@ -86,5 +86,5 @@ headers.forEach(header => {
 });
 
 // Fetch data and update every minute
-// fetchCryptoData();
-// setInterval(fetchCryptoData, 60000);
+fetchCryptoData();
+setInterval(fetchCryptoData, 60000);
